@@ -1,0 +1,52 @@
+<resources>
+
+    <string name="app_name">FightFleetClient</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_concept">ConceptActivity</string>
+    <string name="welcome">Welcome to Fight Fleet</string>
+    <string name="post_button_text">Post Test</string>
+    <string name="get_button_text">Get</string>
+    <string name="result_string">Results will be here.</string>
+    <string name="title_activity_main">Fight Fleet</string>
+    <string name="text_button_gamelist">Show Games</string>
+    <string name="text_button_login">Login</string>
+    <string name="text_button_create_user">Create User</string>
+    <string name="title_activity_login">Log In</string>
+    <string name="title_login_with_email">Log In Email Address</string>
+    <string name="title_activity_game_list">GameListActivity</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="title_opponent_board">Opponent\'s Board</string>
+    <string name="title_your_board">Your Board</string>
+    <string name="water_layout">_ _ _ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _ _ _\n_ _ _ _ _ _ _ _ _ _</string>
+    <string name="x_label">Enter X Coordinate</string>
+    <string name="y_label">Enter Y Coordinate</string>
+    <string name="button_fire_text">Fire!</string>
+    <string name="gameStatusLabel">Status</string>
+    <string name="hintUserName">Enter email</string>
+    <string name="hintPassword">Password</string>
+    <string name="hintConfirm">Confirm</string>
+    <string name="loginStatusFailed">Failed Login</string>
+    <string name="loginStatusPasswordMismatch">Passwords do not match.</string>
+    <string name="new_game">New Game</string>
+    <string name="text_forgot_password"> Forgot Password</string>
+    <string name="baseApiURL">http://fightfleetapi.apphb.com</string>
+    <string name="createGameEndPoint">/Game/CreateGame</string>
+    <string name="getGameListEndPoint">/Game/GetGamesForUser</string>
+    <string name="makeMoveEndPoint">/Game/MakeMove</string>
+    <string name="getGameEndPoint">/Game/GetGame</string>
+    <string name="loginEndPoint">/user/Authenticate</string>
+    <string name="createUserEndPoint">/User/CreateUser</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_change_password">ChangePassword</string>
+    <string name="favorite_car">Name your favorite car</string>
+    <string name="street_name">Name the street where you live</string>
+    <string name="first_pet">Name of first pet</string>
+    <string name="security_questions"> Security Questions </string>
+    <string name="submit_questions"> Submit Questions </string>
+    <string name="title_activity_reset__password">Reset_Password</string>
+    <string name="enter_new"> Enter New Password </string>
+    <string name="reenter_password"> Confirm Password </string>
+    <string name="reset_pssword"> Reset </string>
+    <string name= "pass_reset"> Reset Your Password </string>
+        
+</resources>

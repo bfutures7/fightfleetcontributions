@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fightfleet.fightfleetclient"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.fightfleet.fightfleetclient.Activity.ConceptActivity"
+            android:label="@string/title_activity_concept" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.fightfleet.fightfleetclient.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.fightfleet.fightfleetclient.Activity.MainActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.fightfleet.fightfleetclient.Activity.LoginActivity"
+            android:label="@string/title_activity_login" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.fightfleet.fightfleetclient.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.fightfleet.fightfleetclient.Activity.GameListActivity"
+            android:label="@string/title_activity_game_list" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.fightfleet.fightfleetclient.Activity.LoginActivity" />
+        </activity>
+        <activity
+            android:name="com.fightfleet.fightfleetclient.Activity.GameActivity"
+            android:label="@string/title_activity_game" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.fightfleet.fightfleetclient.Activity.GameListActivity" />
+        </activity>
+        <activity
+            android:name=".Activity.ChangePassword"
+            android:label="@string/title_activity_change_password" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.Reset_Password"
+            android:label="@string/title_activity_reset__password" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
